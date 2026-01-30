@@ -1,0 +1,6 @@
+=== CURL Command ===
+git remote -v
+
+=== Output ===
+origin  https://github.com/Uditkumar-raj87/final-project (fetch)
+origin  https://github.com/Uditkumar-raj87/final-project (push)

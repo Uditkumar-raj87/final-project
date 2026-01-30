@@ -1,0 +1,13 @@
+=== CURL Command ===
+curl -X PUT "http://localhost:5000/review/978-0143039662" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG4iLCJpYXQiOjE2NzQ1MDMyMzgsImV4cCI6MTY3NDUwNjgzOH0.xYZ_example_token" \
+  -d '{"review":"This is a great book!"}'
+
+=== Output ===
+{
+  "message": "Review added/updated successfully",
+  "reviews": {
+    "john": "This is a great book!"
+  }
+}

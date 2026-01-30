@@ -1,0 +1,5 @@
+=== CURL Command ===
+curl -X GET "http://localhost:5000/review/978-0143039662"
+
+=== Output ===
+{}

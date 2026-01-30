@@ -1,0 +1,66 @@
+=== CURL Command ===
+curl -X GET http://localhost:5000/books
+
+=== Output ===
+{
+  "1": {
+    "author": "Chinua Achebe",
+    "title": "Things Fall Apart",
+    "reviews": {},
+    "isbn": "978-0143039662"
+  },
+  "2": {
+    "author": "Hans Christian Andersen",
+    "title": "Fairy tales",
+    "reviews": {},
+    "isbn": "978-0143039945"
+  },
+  "3": {
+    "author": "Dante Alighieri",
+    "title": "The Divine Comedy",
+    "reviews": {},
+    "isbn": "978-0143107569"
+  },
+  "4": {
+    "author": "Unknown",
+    "title": "The Epic of Gilgamesh",
+    "reviews": {},
+    "isbn": "978-0143107200"
+  },
+  "5": {
+    "author": "Unknown",
+    "title": "The Book of Job",
+    "reviews": {},
+    "isbn": "978-0143107773"
+  },
+  "6": {
+    "author": "Unknown",
+    "title": "One Thousand and One Nights",
+    "reviews": {},
+    "isbn": "978-0143107379"
+  },
+  "7": {
+    "author": "Unknown",
+    "title": "Njál's Saga",
+    "reviews": {},
+    "isbn": "978-0143107606"
+  },
+  "8": {
+    "author": "Jane Austen",
+    "title": "Pride and Prejudice",
+    "reviews": {},
+    "isbn": "978-0143107577"
+  },
+  "9": {
+    "author": "Honoré de Balzac",
+    "title": "Le Père Goriot",
+    "reviews": {},
+    "isbn": "978-0143107591"
+  },
+  "10": {
+    "author": "Samuel Beckett",
+    "title": "Molloy, Malone Dies, The Unnamable, the Trilogy",
+    "reviews": {},
+    "isbn": "978-0143107615"
+  }
+}

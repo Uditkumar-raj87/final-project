@@ -1,0 +1,61 @@
+=== Task 11: General.js GitHub URL ===
+
+GitHub Repository: https://github.com/Uditkumar-raj87/final-project
+
+General.js File URL: https://github.com/Uditkumar-raj87/final-project/blob/main/general.js
+
+File Path: /workspaces/final-project/general.js
+
+=== Implementation Details ===
+
+The general.js file contains the following functions:
+
+1. getBooks() - Uses async/await with Promise
+   - Retrieves all books from books.json
+   - Implementation: Async function wrapping a Promise
+
+2. getBookByISBN(isbn) - Uses async/await with Promise
+   - Searches for a book by ISBN
+   - Filters books and returns the matching book
+   - Implementation: Async function with Promise
+
+3. getBooksByAuthor(author) - Uses Promise callbacks
+   - Searches for books by author name (case-insensitive)
+   - Returns array of matching books
+   - Implementation: Promise with then/catch callbacks
+
+4. getBooksByTitle(title) - Uses async/await with Promise
+   - Searches for books by title (case-insensitive)
+   - Returns array of matching books
+   - Implementation: Async function with Promise
+
+5. getBookReview(isbn) - Uses async/await with Promise
+   - Retrieves reviews for a specific book
+   - Returns the reviews object
+   - Implementation: Async function with Promise
+
+6. addBookReview(isbn, review, username) - Uses async/await with Promise
+   - Adds or updates a review for a book
+   - Parameters: ISBN, review text, username
+   - Returns updated book object with new review
+   - Implementation: Async function with Promise
+
+7. deleteBookReview(isbn, username) - Uses async/await with Promise
+   - Deletes a review by username for a specific book
+   - Parameters: ISBN, username
+   - Returns updated book object without the review
+   - Implementation: Async function with Promise
+
+=== Promise Patterns Used ===
+
+✓ Promise callbacks (then/catch): getBooksByAuthor()
+✓ Async/await with Promises: getBooks(), getBookByISBN(), getBooksByTitle(), getBookReview(), addBookReview(), deleteBookReview()
+✓ Axios not directly used in general.js but imported (can be used for external API calls)
+
+=== Code Highlights ===
+
+- All functions return Promises for proper async handling
+- Error handling with reject() for invalid searches
+- Data filtering using Object.keys() and filter()
+- Case-insensitive search for author and title queries
+- Immutable review management (add/delete operations)

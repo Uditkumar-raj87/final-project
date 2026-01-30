@@ -1,0 +1,12 @@
+=== CURL Command ===
+curl -X GET "http://localhost:5000/books/title/Things%20Fall%20Apart"
+
+=== Output ===
+[
+  {
+    "author": "Chinua Achebe",
+    "title": "Things Fall Apart",
+    "reviews": {},
+    "isbn": "978-0143039662"
+  }
+]
